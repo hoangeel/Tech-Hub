@@ -1,0 +1,159 @@
+
+.container{
+  padding: 0px 50px;
+}
+.browse{
+  margin: 0px auto 218px;
+  .content{
+    max-width: 1600px;
+    margin: 0px auto;
+    background: none;
+    border: none;
+    .title{
+      font-family: 'Graphik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 55px;
+      color: #110011;
+      margin-bottom: 92px;      
+    }
+    .groupCard{
+      margin-left: 8px;
+      .col{
+        padding: 0px;
+      }
+      .Card{
+        margin-right: auto;
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+        padding: 0px;
+        border: none;
+        max-width: 209px;
+        .background{
+          background: #1B2753;
+          border-radius: 50%;
+          width: 209px;
+          height: 209px;
+          .iconLeft{
+            position: absolute;
+            top: 0px;
+            left: 10px;
+          }
+          .iconRight{
+            position: absolute;
+            top: -15px;
+            right: -10px;
+          }
+          .main{
+            position: absolute;
+            top: 68px;
+            left: 0px;
+          }
+          .gaming{
+            position: absolute;
+            top: 81px;
+            left: 12px;
+          }
+          .monitor{
+            position: absolute;
+            top: 68px;
+            left: 16px;
+          }
+          .printer{
+            position: absolute;
+            top: 53px;
+            left: 10px;
+          }
+          .accessories{
+            position: absolute;
+            top: 83px;
+            left: 19px;
+          }
+          .networking{
+            position: absolute;
+            top: 70px;
+            left: -22px;
+          }
+        }
+        p{
+          font-family: 'Graphik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 131%;
+          text-align: center;
+          color: #110011;
+          margin:37px 0px 0px;
+        }
+      }
+      .networkingCol{
+        margin-right: 0px;
+      }
+    }
+  }
+  
+}
+@media (max-width: 1400px){
+  .browse{
+    margin: 0px auto 100px;
+    .content{
+      .groupCard{
+        .Card{
+          margin:0px auto 30px;
+        }
+        .networkingCol{
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px){
+  .container{
+    padding: 0px 30px;
+  }
+  .browse{
+    margin: 0px auto 70px;
+    .content{
+      .title{
+        font-size: 30px;
+        margin-bottom: 20px;      
+      }
+      .groupCard{
+        .Card{
+          p{
+            font-size: 26px;
+          }
+        }
+      }
+    }
+    
+  }
+}
+@media (max-width: 576px){
+  .container{
+    padding: 0px ;
+  }
+  .browse{
+    margin: 0px auto 30px;
+    .content{
+      border-radius: 22px;
+      .title{
+        font-size: 20px;
+        margin-bottom: 20px;  
+        margin-left: 10px;    
+      }
+      .groupCard{
+        margin-left: 0px;
+        .Card{
+          p{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

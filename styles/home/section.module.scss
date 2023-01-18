@@ -1,0 +1,406 @@
+
+.container{
+  padding: 0px 50px;
+}
+.section{
+  margin: 0px auto;
+  .content{
+    padding: 76px 0px;
+    max-width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    .all{
+      border: none;
+      margin-right: auto;
+      .iconAll{
+        background: url("../../assets/imgs/iconAll.png") no-repeat;
+        height: 175px;
+        width: 400px;
+        position: absolute;
+        top: 0px;
+        left: -60px;
+      }
+      .laptopAll{
+        position: absolute;
+        top: 84px;
+        right: 19px;
+      }
+      .cardBody{
+        padding: 0px ;
+        position: absolute;
+        top: 186px;
+        left: 75px;
+        h2{
+          font-family: 'Graphik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 35px;
+          line-height: 39px;
+          color: #FFFFFF;
+          margin-bottom: 28px;
+        }
+        h1{
+          font-family: 'Graphik';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 70px;
+          line-height: 77px;
+          color: #F2DD1D;
+          margin-bottom: 29px;
+        }
+        p{
+          font-family: 'Graphik';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 26px;
+          line-height: 29px;
+          color: #FFFFFF;
+          margin-bottom: 55px;
+        }
+        button{
+          width: 176px;
+          height: 62px;
+          background: #F2DD1D;
+          border-radius: 100px;
+          border: #F2DD1D;
+          font-family: 'Graphik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 22px;
+          color: #1B2753; 
+          padding: 0px;  
+          &:hover{
+            opacity: 0.7;
+          }       
+        }
+      }
+    }
+    .Gaming{
+      border: none;
+      background: url("../../assets/imgs/Rectangle 4329.png") no-repeat;
+      margin: 0px 0px 24px 0px;
+      border-radius: 22px;
+      width: 385px;
+      height: 334px;
+      .cardBody{
+        padding: 0px ;
+        position: absolute;
+        top: 207px;
+        left: 32px;
+        h2{
+          font-family: 'Graphik';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 33px;
+          color: #FFFFFF;
+          margin-bottom: 16px;
+          width: 265px;
+        }
+        button{
+          border: #F2DD1D;
+          width: 126px;
+          height: 46px;
+          background: #F2DD1D;
+          border-radius: 100px;
+          font-family: 'Graphik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 20px;
+          color: #1B2753;
+          &:hover{
+            opacity: 0.7;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .Shape{
+      background: url("../../assets/imgs/Rectangle 4330.png") no-repeat;
+      margin-bottom: 0px;
+      .cardBody{
+        margin-right: 86px;
+      }
+    }
+  }
+  
+}
+@media (max-width: 1800px){
+  .section{
+    .content{
+      .all{
+        margin-right: 24px;
+        .imgAll{
+          width: 100%;
+        }
+      }
+    }
+    
+  }
+}
+@media (max-width: 1600px){
+  .section{
+    .content{
+      padding: 50px 0px;
+      .all{
+        .iconAll{
+          height: 175px;
+          width: 400px;
+          top: 0px;
+          left: -60px;
+        }
+        .laptopAll{
+          top: 84px;
+        }
+        .cardBody{
+          padding: 0px ;
+          top: 186px;
+          left: 75px;
+          h2{
+            font-weight: 500;
+            font-size: 30px;
+            margin-bottom: 24px;
+          }
+          h1{
+            font-size: 60px;
+            margin-bottom: 24px;
+          }
+          p{
+            font-size: 20px;
+            margin-bottom: 40px;
+          }
+          button{
+            width: 176px;
+            height: 62px;
+            font-size: 20px;      
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1400px){
+  .section{
+    .content{
+      padding: 50px 0px;
+      .all{
+        width: 100%;
+        .imgAll{
+          width: 100%;
+          height: 470px;
+        }
+        .iconAll{
+          height: 100px;
+          width: 350px;
+          background-size: 350px 100px;
+          top: 0px;
+        }
+        .laptopAll{
+          width: 300px;
+          height: 323px;
+        }
+        .cardBody{
+          padding: 0px ;
+          top: 110px;
+          left: 40px;
+          h2{
+            font-weight: 500;
+            font-size: 26px;
+            margin-bottom: 10px;
+          }
+          h1{
+            font-size: 50px;
+            margin-bottom:10px;
+          }
+          p{
+            font-size: 18px;
+            margin-bottom: 24px;
+          }
+          button{
+            width: 176px;
+            height: 62px;
+            font-size: 20px;      
+          }
+        }
+      }
+      .Gaming{
+        height: 225px;
+        width: 225px;
+        background-size: 225px 225px;
+        margin-bottom: 20px;
+        .cardBody{
+          top: 120px;
+          left: 10px;
+          h2{
+            font-size: 20px;
+            margin-bottom: 10px;
+          }
+          button{
+            width: 110px;
+            height: 36px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px){
+  .container{
+    padding: 0px 30px;
+  }
+  .section{
+    .content{
+      padding: 30px 0px;
+      .all{
+        margin-right: 10px;
+        width: 100%;
+        .imgAll{
+          width: 100%;
+          height: 270px;
+        }
+        .iconAll{
+          height: 50px;
+          width: 250px;
+          background-size: 250px 50px;
+          top: 0px;
+        }
+        .laptopAll{
+          right: 0px;
+          top: 50px;
+          width: 150px;
+          height: 163px;
+        }
+        .cardBody{
+          padding: 0px ;
+          top: 50px;
+          left: 20px;
+          h2{
+            font-weight: 500;
+            font-size: 14px;
+            margin-bottom: 0px;
+          }
+          h1{
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom:10px;
+          }
+          p{
+            font-size: 14px;
+            margin-bottom: 10px;
+          }
+          button{
+            width: 120px;
+            height: 40px;
+            font-size: 14px;      
+          }
+        }
+      }
+      .Gaming{
+        height: 130px;
+        width: 130px;
+        background-size: 130px 130px;
+        margin-bottom: 10px;
+        .cardBody{
+          top: 60px;
+          left: 10px;
+          h2{
+            font-size: 13px;
+            margin-bottom: 0px;
+          }
+          button{
+            padding: 0px;
+            width: 90px;
+            height: 26px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px){
+  .container{
+    padding: 0px 10px;
+  }
+  .section{
+    .content{
+      flex-direction: column;
+      padding: 20px 0px;
+      .all{
+        margin: 0px 0px 10px;
+        width: 100%;
+        .imgAll{
+          width: 100%;
+          height: 200px;
+        }
+        .iconAll{
+          left: -20px;
+          height: 30px;
+          width: 150px;
+          background-size: 150px 30px;
+          top: 0px;
+        }
+        .laptopAll{
+          right: 10px;
+          top: 50px;
+          width: 100px;
+          height: 113px;
+        }
+        .cardBody{
+          padding: 0px ;
+          top: 25px;
+          left: 10px;
+          h2{
+            font-size: 12px;
+            margin-bottom: 0px;
+          }
+          h1{
+            font-size: 24px;
+            line-height: 20px;
+            margin-bottom:10px;
+          }
+          p{
+            font-size: 11px;
+            margin-bottom: 10px;
+          }
+          button{
+            width: 100px;
+            height: 30px;
+            font-size: 12px;      
+          }
+        }
+      }
+      .groupCard{
+        display: flex;
+        flex-direction: row;
+        .Gaming{
+          height: 130px;
+          width: 50%;
+          background-size: 100% 130px;
+          margin-bottom: 0px;
+          .cardBody{
+            top: 60px;
+            left: 10px;
+            h2{
+              font-size: 12px;
+              margin-bottom: 0px;
+            }
+            button{
+              padding: 0px;
+              width: 90px;
+              height: 26px;
+              font-size: 12px;
+            }
+          }
+        }
+        .Shape{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

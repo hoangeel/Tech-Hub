@@ -1,0 +1,552 @@
+
+.container{
+  padding: 0px 50px;
+}
+.trending{
+  margin: 0px auto;
+  .content{
+    max-width: 1600px;
+    margin: 0px auto;
+    .title{
+      font-family: 'Graphik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 39px;
+      color: #110011;      
+    }
+    .slider{
+      button{
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+        background: url("../../assets/imgs/Group 13.png") no-repeat;
+        width: 90px;
+        height: 90px;
+        background-position: -20px -10px;
+        right: -45px;
+        top:380px;
+        &:before{
+          display: none;
+        }
+        button.slick-prev{
+          display: none;
+        }
+      }
+      .iconSlider{
+        .card{
+          .cardBody{
+            padding: 0px;
+          }
+          padding: 45px 30px 36px;
+          margin: 86px 38px 278px 0px;
+          width: 424px;
+          background: #FFFFFF;
+          border: 1px solid #E6E6E6;
+          box-shadow: 0px 20px 45px rgba(191, 191, 191, 0.25);
+          border-radius: 22px;
+          h1{
+            font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 131%;
+            color: #110011;
+            margin: 57px 0px 25px;
+          }
+          p{
+            margin-right: auto;
+            margin-bottom: 37px;
+            font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 131%;
+            color: #110011;
+          }
+          img{
+            margin-right:9px;
+          }
+          .imgEnd{
+            margin-right: 0px;
+          }
+          .img{
+            img{
+              margin: 0px auto;
+            }
+          }
+          button{
+            font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+            text-align: center;
+            color: #1B2753;
+            width: 364px;
+            height: 62px;
+            padding: 0px;
+            border: 1px solid #1B2753;
+            border-radius: 100px; 
+            background: none; 
+            &:hover{
+              cursor: pointer;
+              background:#1B2753;
+              color: #FFFFFF;
+            }          
+          }
+        }
+      }
+    }
+  }
+}
+.apple{
+  background: #1B2753;
+  padding: 140px 0px 149px;
+  .content{
+    .titleApple{
+      font-family: 'Graphik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      color: #FFFFFF;  
+      max-width: 437px; 
+      margin: 0px 65px 36px 0px;   
+    }
+    .ShopNow{
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      font-family: 'Graphik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 22px;
+      color: #1B2753;    
+      width: 176px;
+      height: 62px;
+      background: #F2DD1D;
+      border-radius: 100px;  
+      padding: 0px;
+      border: #F2DD1D;
+      margin-bottom: 36px;
+    }
+    .imgApple{
+      width: 82%;
+      height: auto;
+    }
+    .groupSliders{
+      max-width: 1100px;
+      .slider{
+        button{
+          top:300px;
+          background: url("../../assets/imgs/Group 14.png") no-repeat;
+        }
+        .iconSlider{
+          .card{
+            margin: 0px 35px 0px 0px;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+    .groupApple{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+@media (max-width: 1500px){
+  .apple{
+    .content{
+      .titleApple{
+        font-size: 55px;
+        margin: 0px 65px 36px 0px;   
+      }
+      .ShopNow{
+        font-size: 20px;   
+        width: 176px;
+        height: 62px;
+        margin-bottom: 36px;
+      }
+      .imgApple{
+        width: 90%;
+        height: auto;
+      }
+      .groupSliders{
+        min-width: 200px;
+        .slider{
+          button{
+            top:220px;
+          }
+          .iconSlider{
+            .card{
+              padding: 30px 20px 30px;
+              margin: 0px 35px 0px 0px;
+              width: 300px;
+              h1{
+                font-size: 24px;
+                margin: 20px 0px;
+              }
+              p{
+                margin-bottom: 20px;
+                font-size: 24px;
+              }
+              img{
+                margin-right:9px;
+                width: 20px;
+                height: 20px;
+              }
+              .img{
+                img{
+                  margin: 0px auto;
+                  width: 180px;
+                  height: 180px;
+                }
+              }
+              button{
+                font-size: 20px;
+                width: 100%;
+                height: 62px;         
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px){
+  .trending{
+    .content{
+      .slider{
+        button{
+          width: 90px;
+          height: 90px;
+          background-position: -20px -10px;
+          right: -45px;
+          top:250px;
+        }
+        .iconSlider{
+          .card{
+            padding: 30px 20px 30px;
+            margin: 50px 20px 100px 0px;
+            width: 300px;
+            h1{
+              font-size: 24px;
+              margin: 20px 0px;
+            }
+            p{
+              margin-bottom: 20px;
+              font-size: 24px;
+            }
+            img{
+              margin-right:9px;
+              width: 20px;
+              height: 20px;
+            }
+            .img{
+              img{
+                margin: 0px auto;
+                width: 180px;
+                height: 180px;
+              }
+            }
+            button{
+              font-size: 20px;
+              width: 100%;
+              height: 62px;         
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  .apple{
+    padding: 100px 0px;
+    .content{
+      .titleApple{
+        font-size: 50px;
+        margin: 0px 40px 30px 0px;   
+      }
+      .ShopNow{
+        font-size: 20px;   
+        width: 176px;
+        height: 62px;
+        margin-bottom: 36px;
+      }
+      .imgApple{
+        width: 70%;
+        height: auto;
+      }
+      .groupSliders{
+        min-width: 200px;
+        .slider{
+          button{
+            top:220px;
+          }
+          .iconSlider{
+            .card{
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px){
+  .container{
+    padding: 0px 30px;
+  }
+  .trending{
+    .content{
+      .title{
+        font-size: 30px;
+        margin-bottom: 30px;      
+      }
+      .slider{
+        button{
+          width: 65px;
+          height: 65px;
+          background-size: 90px 90px;
+          background-position: -12px -5px;
+          right: -25px;
+          top:200px;
+        }
+        .iconSlider{
+          .card{
+            padding: 20px ;
+            margin: 30px 15px 70px 0px;
+            width: 200px;
+            h1{
+              font-size: 18px;
+              margin: 20px 0px;
+            }
+            p{
+              margin-bottom: 20px;
+              font-size: 16px;
+            }
+            img{
+              margin-right:5px;
+              width: 15px;
+              height: 15px;
+            }
+            .img{
+              img{
+                margin: 0px auto;
+                width: 100px;
+                height: 100px;
+              }
+            }
+            button{
+              font-size: 14px;
+              width: 100%;
+              height: 40px;         
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  .apple{
+    padding: 70px 0px ;
+    .content{
+      .titleApple{
+        text-align: center;
+        font-size: 30px;
+        margin: 0px auto 20px;   
+      }
+      .ShopNow{
+        display: block;
+        text-align: center;
+        margin: 0px auto 20px;
+        padding: 0px;
+        font-size: 14px;   
+        width: 120px;
+        height: 40px;
+      }
+      .imgApple{
+        display: none;
+      }
+      .groupSliders{
+        min-width: 200px;
+        .slider{
+          button{
+            width: 65px;
+            height: 65px;
+            background-size:65px 65px;
+            background-position: 0px 0px;
+            right: -25px;
+            top:200px;
+          }
+          .iconSlider{
+            .card{
+              padding: 20px ;
+              margin-right: 15px;
+              width: 200px;
+              h1{
+                font-size: 18px;
+                margin: 20px 0px;
+              }
+              p{
+                margin-bottom: 20px;
+                font-size: 16px;
+              }
+              img{
+                margin-right:5px;
+                width: 15px;
+                height: 15px;
+              }
+              .img{
+                img{
+                  margin: 0px auto;
+                  width: 100px;
+                  height: 100px;
+                }
+              }
+              button{
+                font-size: 14px;
+                width: 100%;
+                height: 40px;         
+              }
+            }
+          }
+        }
+      }
+      .groupApple{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+@media (max-width: 576px){
+  .container{
+    padding: 0px 10px;
+  }
+  .trending{
+    .content{
+      .title{
+        font-size: 20px;
+        margin-bottom: 0px;      
+      }
+      .slider{
+        button{
+          width: 27px;
+          height: 27px;
+          background-size: 35px 35px;
+          background-position: -5px -3px;
+          right: 0px;
+          top:130px;
+        }
+        .iconSlider{
+          .card{
+            padding: 10px ;
+            margin: 10px 10px 30px 0px;
+            width: 140px;
+            h1{
+              font-size: 12px;
+              margin: 10px 0px;
+            }
+            p{
+              margin-bottom: 20px;
+              font-size: 12px;
+            }
+            img{
+              margin-right:5px;
+              width: 10px;
+              height: 10px;
+            }
+            .img{
+              img{
+                margin: 0px auto;
+                width: 80px;
+                height: 80px;
+              }
+            }
+            button{
+              font-size: 12px;
+              width: 100%;
+              height: 30px;         
+            }
+          }
+        }
+      }
+    }
+  }
+  .apple{
+    padding: 30px 0px ;
+    .content{
+      .titleApple{
+        text-align: center;
+        font-size: 20px;
+        margin: 0px auto 20px;   
+      }
+      .ShopNow{
+        display: block;
+        text-align: center;
+        margin: 0px auto 0px;
+        padding: 0px;
+        font-size: 12px;   
+        width: 100px;
+        height: 30px;
+      }
+      .imgApple{
+        display: none;
+      }
+      .groupSliders{
+        min-width: 200px;
+        .slider{
+          button{
+            width: 27px;
+            height: 27px;
+            background-size: 27px 27px;
+            right: -7px;
+            top:120px;
+          }
+          .iconSlider{
+            .card{
+              padding: 10px ;
+              margin:0px 5px;
+              width: 140px;
+              h1{
+                font-size: 12px;
+                margin: 10px 0px;
+              }
+              p{
+                margin-bottom: 20px;
+                font-size: 12px;
+              }
+              img{
+                margin-right:5px;
+                width: 10px;
+                height: 10px;
+              }
+              .img{
+                img{
+                  margin: 0px auto;
+                  width: 80px;
+                  height: 80px;
+                }
+              }
+              button{
+                font-size: 12px;
+                width: 100%;
+                height: 30px;         
+              }
+            }
+          }
+        }
+      }
+      .groupApple{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
