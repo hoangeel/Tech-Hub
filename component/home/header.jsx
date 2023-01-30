@@ -31,7 +31,7 @@ export default function Header() {
               aria-label="Username"
               aria-describedby="basic-addon1"
             />
-            <InputGroup.Text id="basic-addon1"><Image src={Search} alt="" /></InputGroup.Text>
+            <div className={styles.img}><Image src={Search} alt="" /></div>
           </div>
           <InputGroup className={styles.reorder}>
             <div className={styles.callImg}><Image src={Reorder} alt="" /></div>
@@ -53,7 +53,7 @@ export default function Header() {
 
           <div className={styles.menu}>
             <Dropdown className={styles.dropdown}>
-              <Dropdown.Toggle>
+              <Dropdown.Toggle id="ab">
                 <div className={styles.title}>
                   <hr />
                   <hr />
