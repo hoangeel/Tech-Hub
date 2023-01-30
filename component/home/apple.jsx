@@ -7,10 +7,10 @@ import Slider from "react-slick";
 import React, { Component } from "react";
 
 import iconStar from "assets/imgs/Vector (5).png"
-import Dell1 from "assets/imgs/large_1032341154 1.png"
-import Dell2 from "assets/imgs/large_1032341154 2.png"
-import Dell3 from "assets/imgs/large_1032341154 2 (1).png"
-import Dell4 from "assets/imgs/large_1032341154 3.png"
+import Dell1 from "assets/imgs/large_1.png"
+import Dell2 from "assets/imgs/large_2.png"
+import Dell3 from "assets/imgs/large_3.png"
+import Dell4 from "assets/imgs/large_4.png"
 import apple from "assets/imgs/image 2.png"
 
 function SamplePrevArrow(props) {

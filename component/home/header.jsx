@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { InputGroup, Form, Stack, Nav, Dropdown } from 'react-bootstrap';
 import { useRouter } from 'next/router'
 
-import Logo from "assets/imgs/item_132930835998121387_img_Logo 1.png"
+import Logo from "assets/imgs/itemLogo.png"
 import Call from "assets/imgs/Vector.png"
 import Search from "assets/imgs/ri_search-line.png"
 import Reorder from "assets/imgs/Vector (1).png"
